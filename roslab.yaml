@@ -1,0 +1,12 @@
+name: load-network
+
+base:
+  ubuntu: 18.04
+  cuda: 9.2-devel
+  cudnn: 7-devel
+  opengl: runtime
+
+pip3:
+  - torch
+  - torchvision
+  - tqdm
